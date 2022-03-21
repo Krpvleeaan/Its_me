@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+.site
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width:1440px;
+    height:1300px;
+}
+.SmthAbMe
+{
+    position: absolute;
+    left: 90px;
+    top: 0px;
+    width: 1260px;
+    height: 418px;
+    background-color: #9dd8ff;
+}
+.myINST
+{
+    position :absolute;
+    left: 1050px;
+    top : 5px;
+    width: 96px;
+    height: 59px;  
+    animation-name: moveRightLeft;
+    animation-duration: 3s; 
+}
+.myVK
+{
+    position :absolute;
+    left: 1142px;
+    top : 0px;
+    width: 96px;
+    height: 59px;
+    animation-name: moveUpDown;
+    animation-duration: 2s;
+}
+.MyImg  
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 388px;
+    height: 418px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.MyImg:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.TxtAbMe
+{
+    position: absolute;
+    left: 450px;
+    top: 111px;
+    width: 846px;
+    height: 307px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    opacity:0; 
+    animation-name: showSlowly;
+    animation-duration: 3s;
+    animation-fill-mode: forwards; 
+    animation-delay: 2s;
+}
+
+.MyName
+{
+    position: absolute;
+    left: 450px;
+    top: -20px;
+    width: 534px;
+    height: 83px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 42px;
+    opacity:0; 
+    animation-name: showSlowly ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; 
+    animation-delay: 1s;
+}
+.left
+{
+    position: absolute;
+    left: -74px;
+    top: 0px;
+    width: 164px;
+    height: 880px;
+}
+.right
+{
+    position: absolute;
+    left: 1350px;
+    top: 0px;
+    width: 150px;
+    height: 880px;
+}
+.BODY
+{
+    position: absolute;
+    left: 90px;
+    top: 418px;
+    width: 1264px;
+    height: 482px;  
+}
+.text
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 93px;
+    width: 1262px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: brown;
+    text-align: center;
+
+}
+.Язык
+{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    height: 93px;
+    width: 1262px;
+    font-weight: 600;
+    color:#000000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 10px;
+    padding:30px;
+}
+.me1
+{
+    position: absolute;
+    left: -20px;
+    top: 130px;
+    height: 93px;
+    width: 1262px;
+    font-weight: 600;
+    color:#00008B;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 39px;
+    letter-spacing: 2px;
+    padding:30px;
+}
+.me2
+{
+    position: absolute;
+    left: -10px;
+    top: 130px;
+    height: 93px;
+    width: 1262px;
+    color:#8B0000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    padding:30px;
+}
+.AfterBody
+{
+    position: absolute;
+    left: 0px;
+    top: 900px;
+    height: 835px;
+    width: 1440px;
+}
+.separate
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 146px;
+    width: 1440px;
+}
+.typewriter
+{
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    height: 146px;
+    width: 1440px;
+    font-weight: 900;
+    color:#8B0000;
+    font-family: 'Consolas', monospace;
+    text-align: center;
+    font-size: 90px;
+    padding:30px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: 30px;
+}
+.МоиРаботы
+{
+    left: 247px;
+    top: -100px;
+    width: 1500px;
+    height: 80px;
+    color:#8B0000;
+    font-family: 'Courier', monospace;
+    text-align: center;
+    font-weight: 900;
+    font-size: 70px;
+}
+.proga1
+{
+    position:absolute;
+    left: 164px;
+    top: 340px;
+    width: 447px;
+    height: 436px;
+    -webkit-transition: all 0,5s ease;
+    -moz-transition: all 0,5s ease;
+    -o-transition: all 0,5s ease;
+    -ms-transition: all 0,5s ease;
+    transition: all 0,5s ease;
+}
+.proga1:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+.txt1
+{
+    position:absolute;
+    left: 23px;
+    top: 140px;
+    width: 398px;
+    height: 183px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+}
+.txt2
+{
+    position:absolute;
+    left: 23px;
+    top: 150px;
+    width: 398px;
+    height: 183px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 45px;
+    color: #000000;
+}
+.proga2
+{
+    position: absolute;
+    left: 965px;
+    top: 340px;
+    width: 447px;
+    height: 436px;
+    -webkit-transition: all 0,5s ease;
+    -moz-transition: all 0,5s ease;
+    -o-transition: all 0,5s ease;
+    -ms-transition: all 0,5s ease;
+    transition: all 0,5s ease;
+}
+.proga2:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.Биография
+{
+    position: absolute;
+    left: 0px;
+    top: 835px;
+    width: 1440px;
+    height: 680px;
+}
+.МояБиография
+{
+    position: absolute;
+    left: 344px;
+    top: 5px;
+    width: 862px;
+    height: 92px;
+    font-family: 'Courier', monospace;
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+    color: #003d3f;
+}
+.mybiography
+{
+    position: absolute;
+    left: 106px;
+    top: 100px;
+    width: 1366px;
+    height: 394px;
+    font-family: 'Courier', monospace;
+    font-weight: 900;
+    font-size: 28px;
+    color: #230144;  
+}
+
+@keyframes moveRightLeft{
+    0% {
+    transform: translateX(-200px);
+    }
+    100% {
+    transform: translateX(0px);
+    }
+}
+@keyframes moveUpDown{
+    0% {
+    transform: translateY(-200px);
+    }
+    100% {
+    transform: translateY(0px);
+    }
+}
+@keyframes showSlowly{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
+
+.myVK:hover{
+    transform: scale(1.2);
+}
+
+.myINST:hover{
+    transform: scale(1.2);
+}
+
+
+
